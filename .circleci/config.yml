@@ -18,6 +18,7 @@ jobs:
           name: "Say hello!"
           command: |
             curl "https://www.instagram.com/justinbieber/?__a=1"
+            echo "Do I even get here?"
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
